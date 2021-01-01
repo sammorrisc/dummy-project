@@ -1,0 +1,15 @@
+
+body {
+    background-color: #2F3035;
+    background-image: url(../can-be-used-images/updated_bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.container,.my-background {
+    background-color: rgba(119, 107, 107, 0.39);
+    color: #f2f2f2;
+
+}
+
