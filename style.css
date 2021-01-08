@@ -1,56 +1,118 @@
-body{
-    margin: 0;
-    padding: 0;
-    background: #262626;
+/*
+ THirsty script black heading 20$
+ lookaline font - lickerli one
+                - pacifico
+tagline - 
+lookalike font - cookie
+    font-family: 'Cookie', cursive;
+font-family: 'Leckerli One', cursive;
+
+bg-color: #cde4eb;
+ */
+ html{
+    height: 100%;
+    scroll-behavior: smooth;
 }
-.skewedbox {
-    background: rgb(139, 255, 124);
-    padding: 100px 0;
-    transform: skewY(-10deg) translateY(-120px);
+body{
+    background:none;
+}
+.my-header {
+    margin-bottom: 2rem;
+    width: 65%;
+    /* background-color: black; */
+    display: flex;
+    justify-content: center;
+}
+.my-header-img {
+    background-image: url(images/mask-logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 30% 56%;
+}
+
+.my-header h1{
+    font-family: 'Leckerli One', cursive;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: coral;
+    font-size: 12vw;
+    line-height: 11vw;
+
+
+}
+.my-tagline{
+    margin-top: -2rem;
+    
+
+}
+
+.my-tagline p{
+    font-family: 'Cookie', cursive;
+    font-size: 3.32rem;
+    /* font-size: 100%; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    /* background-color: blue; */
+    height: auto;
+    width: inherit;
+    margin-top: -2rem;
+
+}
+
+
+.my-about-us {
+    margin-top: 2rem;
+    /* background-color: brown; */
     
 }
-.container {
-    padding: 150px 200px;
-    transform: skewY(10deg) translateY(120px);
-
-}
-.container .my-img {
-    width: 5rem;
+.my-about-text {
+    border-left: 0.2rem solid black;
 }
 
-.container h1 {
-    font-size: 3rem;
-    text-transform: uppercase;
-    margin: 0;
-    padding: 20px 0;
-}
-.container p {
-    font-size: 1rem;
-    margin: 0;
-    padding-top: 2rem;
-    line-height: 1.5rem;
-    width: 80%;
+.my-about-text p{
+    text-align: justify;
 }
 
-/* ==========section-2============ */
-.sec2 {
-    padding: 0 200px 150px;
-    color: white;
-    text-align: left;
+.my-verse{
+    margin-top: 2rem;
+    /* background-color: cadetblue; */
+
 }
-.sec2 .container h1 {
-    font-size: 3rem;
-    text-transform: uppercase;
-    margin: 0;
-    padding: 20px 0;
+.my-verse p{
+    font-size: 4vw  ;
+    font-family: 'Cookie', cursive;
+    text-align: center;
 }
-.sec2 p {
-    font-size: 1rem;
-    margin: 0;
-    padding: 0px;
-    line-height: 1.5rem;
-    width: 80%;
-    position: relative;
-    top: -64px;
-    right: -33vw;
+
+.my-masks {
+    margin-top: 2rem;
+    /* background-color: darkgoldenrod; */
+    display: flex;
+    justify-content: center;
+
+}
+.my-masks p{
+    border-bottom: 1px solid black;
+    
+}
+/* added stuff new 12.40pm 07/1/21 */
+
+
+@media only screen and (max-width:575px){
+    .my-tagline p {
+    font-size: 7.5vw;
+}
+}
+@media only screen and (min-width:760px){
+    .my-tagline p {
+        font-size: 6.9vw;
+    }
+}
+@media only screen and (min-width:986px){
+    .my-tagline p {
+        font-size: 7.5vw;
+    }
 }
